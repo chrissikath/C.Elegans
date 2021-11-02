@@ -2,11 +2,11 @@
 
 ## Part 1: splice_variants_analysis.sh
 	
-1.1 STAR INDEX </tr>
-1.2 Mapping
-1.3 Sort bed files
-2.0 Stingtie
-3.0 Extract Gene from gtf results
+1.1 STAR INDEX </br>
+1.2 Mapping  </br>
+1.3 Sort bed files  </br>
+2.0 Stingtie </br>
+3.0 Extract Gene from gtf results </br>
 	
 - Versionen:
 	- STAR version 2.7.4a
@@ -25,8 +25,8 @@
 			
 ## Part 2: visualization_splice_variants.sh
 
-1.0 Shell part (Vorbereitung fürs R script)
-2.0 R Part (Visualisierung)
+1.0 Shell part (Vorbereitung fürs R script)  </br>
+2.0 R Part (Visualisierung) </br>
 	
 - Versionen: 
 	- R version: 3.4.2
