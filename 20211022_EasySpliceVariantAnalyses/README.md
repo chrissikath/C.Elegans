@@ -12,7 +12,7 @@
 	- STAR version 2.7.4a
 	- Stringtie version 1.3.3b
 - In der Datei Pfade ändern, dann ausführen -> ./splice-variant-analysis.sh 
-	- Extra-Dateien:
+	- Extra-Dateien: </br>
 		GENOME= .fa  </br>
 		ANNO_GTF= .gtf </br>
 		RAW_SEQ= Ordner wo paired-end reads liegen (zippend) </br>
@@ -30,8 +30,8 @@
 	
 - Versionen: 
 	- R version: 3.4.2
-	- BiocManager::install(version = "3.10")
-		R-Packages installieren die in packages_functions_Alex.R benutzt werden
+	- BiocManager::install(version = "3.10") </br>
+		R-Packages installieren die in packages_functions_Alex.R benutzt werden </br>
 		(DESeq2, edgeR, RColorBrewer,gplots , psych,VennDiagram,grDevices,
 		calibrate, ggplot2, pheatmap, reshape, seqinr, Biostrings, plyr, taRifx)
 	- In der Datei Pfade ändern, dann ausführen -> ./visualization_splice_variants.sh
