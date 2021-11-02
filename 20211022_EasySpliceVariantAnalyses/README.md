@@ -44,5 +44,5 @@
 	- 2.0 files  </br>
 		motifs_adgrl1_file= motifs_adgrl1  </br>
 		packages_functions_script= packages_functions_Alex.R </br>
-		set_working_dir= wo "resuls" hinsoll und alles liegt </br>
+		set_working_dir= wo "results" hinsoll und alles liegt </br>
 		visualization_splice_variants_script= visualization_splice_variants.R </br>
