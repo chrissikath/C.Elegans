@@ -13,15 +13,15 @@
 	- Stringtie version 1.3.3b
 - In der Datei Pfade ändern, dann ausführen -> ./splice-variant-analysis.sh 
 	- Extra-Dateien:
-		GENOME= .fa 
-		ANNO_GTF= .gtf
-		RAW_SEQ= Ordner wo paired-end reads liegen (zippend)
-		SAMPLE_LIST= .txt -> welche samples genutzt werden (filename /t Endbezeichnung)
-		Example: 	G1-N2	d1_adult_gonad_wildtype_1
-					G2-N2	d1_adult_gonad_wildtype_2
-					G3-N2	d1_adult_gonad_wildtype_3
-					G4-N2	d1_adult_gonad_wildtype_4
-					G5-N2	d1_adult_gonad_wildtype_5
+		GENOME= .fa  </br>
+		ANNO_GTF= .gtf </br>
+		RAW_SEQ= Ordner wo paired-end reads liegen (zippend) </br>
+		SAMPLE_LIST= .txt -> welche samples genutzt werden (filename /t Endbezeichnung) </br>
+		Example: 	'''' G1-N2	d1_adult_gonad_wildtype_1 </br>
+				G2-N2	d1_adult_gonad_wildtype_2
+				G3-N2	d1_adult_gonad_wildtype_3
+				G4-N2	d1_adult_gonad_wildtype_4
+				G5-N2	d1_adult_gonad_wildtype_5 '''
 			
 ## Part 2: visualization_splice_variants.sh
 
@@ -35,12 +35,12 @@
 		(DESeq2, edgeR, RColorBrewer,gplots , psych,VennDiagram,grDevices,
 		calibrate, ggplot2, pheatmap, reshape, seqinr, Biostrings, plyr, taRifx)
 	- In der Datei Pfade ändern, dann ausführen -> ./visualization_splice_variants.sh
-	- #1.0 files
-	GENOME= .fa
-	R_scripts= packages_functions_Alex.R
-	exon_information_script= exon-information.r
-		- #2.0 files
-	motifs_adgrl1_file= motifs_adgrl1 
-	packages_functions_script= packages_functions_Alex.R
-	set_working_dir= wo "resuls" hinsoll und alles liegt
-	visualization_splice_variants_script= visualization_splice_variants.R
+	- #1.0 files  </br>
+		GENOME= .fa </br>
+		R_scripts= packages_functions_Alex.R </br>
+		exon_information_script= exon-information.r </br>
+	- #2.0 files  </br>
+		motifs_adgrl1_file= motifs_adgrl1  </br>
+		packages_functions_script= packages_functions_Alex.R </br>
+		set_working_dir= wo "resuls" hinsoll und alles liegt </br>
+		visualization_splice_variants_script= visualization_splice_variants.R </br>
