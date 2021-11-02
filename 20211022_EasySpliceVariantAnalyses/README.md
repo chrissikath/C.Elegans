@@ -2,7 +2,7 @@
 
 ## Part 1: splice_variants_analysis.sh
 	
-1.1 STAR INDEX
+1.1 STAR INDEX </tr>
 1.2 Mapping
 1.3 Sort bed files
 2.0 Stingtie
