@@ -9,8 +9,8 @@
 
 #1.0 files
 GENOME="/home/horn/2021_Celegans/20210902_alex_data/genome/wormbase/caenorhabditis_elegans.PRJNA13758.WBPS10.genomic.fa"
-R_scripts= "/home/christina/C_elegans/analysis/20211022_EasySpliceVariantAnalyses/packages_functions_Alex.R"
 exon_information_script="/home/christina/C_elegans/analysis/20211022_EasySpliceVariantAnalyses/exon-information.r"
+packages_functions_script="/home/christina/C_elegans/analysis/20211022_EasySpliceVariantAnalyses/packages_functions_Alex.R"
 
 #2.0 files
 motifs_adgrl1_file="motifs_adgrl1" 
@@ -30,7 +30,7 @@ strand="+" #define strand
 
 # exon-based comparison 
 cd  results
-R --vanilla < $exon_information_script $gene_name \
+R --vanilla < $exon_information_script $gene_name $packages_functions_script \
       `ls | awk -F '/' '{print $NF}' | awk -F '.' '{print $1}'`
 cd ..
 
@@ -58,10 +58,10 @@ bedtools getfasta -fi ${GENOME} \
 	-bed whole_locus.bed \
 	-fo whole_locus.fa -name
 	
-############################## 2.0 R Part ##########################################
+############################# 2.0 R Part ##########################################
 
-#Wichtige Output Dateien:
-#	transcripts variants pdf 
-#	sequence_and_orf_analysis pdf 
-#	orfs.fa
+# Wichtige Output Dateien:
+	# transcripts variants pdf 
+	# sequence_and_orf_analysis pdf 
+	# orfs.fa
 R  --vanilla < $visualization_splice_variants_script $gene_name $motifs_adgrl1_file $packages_functions_script $set_working_dir

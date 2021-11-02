@@ -8,6 +8,7 @@
 
 if (interactive() == FALSE) {
 	Args <- commandArgs()
+	print(Args)
 	if (length(Args) == 2)  {
 		stop('please provide the sample names to be loaded')
 	}
@@ -16,7 +17,7 @@ if (interactive() == FALSE) {
 # R
 # Args <- c('R', 'vanilla', 'radish', 'adult_male_1', 'adult_male_2')
 
-source(file = "/home/christina/C_elegans/analysis/20210906_AlexRedone/scripts/packages_functions_Alex.R")
+source(file = Args[4])
 getwd()
 
 # print gene of interest to provide possibillity to interupt
@@ -27,7 +28,7 @@ print(paste('gene of interest:', gene.name))
 gtf.list <- list()
 merged.exons <- FALSE
 
-for (arg in Args[4:length(Args)]) {
+for (arg in Args[5:length(Args)]) {
 	if (grepl('.gtf', arg)) {
 		sample.name <- strsplit(arg, '\\.')[[1]][[1]]
 	}
