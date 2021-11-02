@@ -17,11 +17,12 @@
 		ANNO_GTF= .gtf </br>
 		RAW_SEQ= Ordner wo paired-end reads liegen (zippend) </br>
 		SAMPLE_LIST= .txt -> welche samples genutzt werden (filename /t Endbezeichnung) </br>
-		Example: 	'''' G1-N2	d1_adult_gonad_wildtype_1 </br>
-				G2-N2	d1_adult_gonad_wildtype_2
-				G3-N2	d1_adult_gonad_wildtype_3
-				G4-N2	d1_adult_gonad_wildtype_4
-				G5-N2	d1_adult_gonad_wildtype_5 '''
+		Example: 	
+		''' 	G1-N2	d1_adult_gonad_wildtype_1
+			G2-N2	d1_adult_gonad_wildtype_2
+			G3-N2	d1_adult_gonad_wildtype_3
+			G4-N2	d1_adult_gonad_wildtype_4
+			G5-N2	d1_adult_gonad_wildtype_5 '''
 			
 ## Part 2: visualization_splice_variants.sh
 
