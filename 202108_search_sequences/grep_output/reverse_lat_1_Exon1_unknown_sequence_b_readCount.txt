@@ -1,0 +1,10 @@
+file 	 count 	 ratio
+APR469--1.bam	 0 	 0
+APR469--2.bam	 0 	 0
+APR469--3.bam	 0 	 0
+APR469--4.bam	 0 	 0
+APR469--5.bam	 0 	 0
+APR469-1.bam	 0 	 0
+APR469-2.bam	 0 	 0
+APR469-3.bam	 0 	 0
+APR469-4.bam	 0 	 0
