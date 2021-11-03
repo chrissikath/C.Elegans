@@ -14,6 +14,7 @@ Schritte:
 - Programme installieren:
 	- STAR version 2.7.4a
 	- Stringtie version 1.3.3b
+	- Beispielweise in einem environment installieren (z.B. conda)
 - In der Datei splice-variant-analysis.sh Pfade/Gen-Angaben ändern, dann ausführen -> ./splice-variant-analysis.sh </br>
 	GENOME= .fa  </br>
 	ANNO_GTF= .gtf </br>
