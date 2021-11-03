@@ -17,17 +17,17 @@ Schritte:
 - In der Datei splice-variant-analysis.sh Pfade/Gen-Angaben ändern, dann ausführen -> ./splice-variant-analysis.sh 
 	- GENOME= .fa  </br>
 	ANNO_GTF= .gtf </br>
-	STARINDEX_OUTPUT = directory wo STARIndex hinsoll
+	STARINDEX_OUTPUT = directory wo STARIndex hinsoll </br>
 	RAW_SEQ= Ordner wo paired-end reads liegen (zippend) </br>
 	SAMPLE_LIST= .txt -> welche samples genutzt werden (filename /t Endbezeichnung) </br>
 	
-	gene="Lat-1" # define gene name
-	start="8896841" # define start
-	stop="8908666"   # define stop
-	chr="II" #define chromosome
-	strand="+" #define strand 
+	gene="Lat-1" # define gene name </br>
+	start="8896841" # define start </br>
+	stop="8908666"   # define stop </br>
+	chr="II" #define chromosome </br>
+	strand="+" #define strand </br>
 		
-		Example: 	
+	Example: 	
 	``` G1-N2	d1_adult_gonad_wildtype_1
 	G2-N2	d1_adult_gonad_wildtype_2
 	G3-N2	d1_adult_gonad_wildtype_3
