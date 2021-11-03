@@ -1,5 +1,7 @@
 # README.md (mapping, stringtie, lat-1, splice-variant-analysis)
 
+Um die Analyse zu starten, lade den Ordner "20211022_EasySpliceVariantAnalyses"
+
 ## Part 1: splice_variants_analysis.sh
 	
 1.1 STAR INDEX </br>
@@ -11,7 +13,7 @@
 - Versionen:
 	- STAR version 2.7.4a
 	- Stringtie version 1.3.3b
-- In der Datei Pfade ändern, dann ausführen -> ./splice-variant-analysis.sh 
+- In der Datei splice-variant-analysis.sh Pfade ändern, dann ausführen -> ./splice-variant-analysis.sh 
 	- Extra-Dateien: </br>
 		GENOME= .fa  </br>
 		ANNO_GTF= .gtf </br>
@@ -36,7 +38,7 @@
 		R-Packages installieren die in packages_functions_Alex.R benutzt werden </br>
 		(DESeq2, edgeR, RColorBrewer,gplots , psych,VennDiagram,grDevices,
 		calibrate, ggplot2, pheatmap, reshape, seqinr, Biostrings, plyr, taRifx)
-	- In der Datei Pfade ändern, dann ausführen -> ./visualization_splice_variants.sh
+	- In der Datei Pfade .visualization_splice_variants.sh ändern, dann ausführen -> ./visualization_splice_variants.sh
 	- 1.0 files  </br>
 		GENOME= .fa </br>
 		R_scripts= packages_functions_Alex.R </br>
