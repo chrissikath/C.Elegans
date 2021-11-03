@@ -14,12 +14,19 @@ Schritte:
 - Programme installieren:
 	- STAR version 2.7.4a
 	- Stringtie version 1.3.3b
-- In der Datei splice-variant-analysis.sh Pfade ändern, dann ausführen -> ./splice-variant-analysis.sh 
-	- Extra-Dateien: </br>
-		GENOME= .fa  </br>
-		ANNO_GTF= .gtf </br>
-		RAW_SEQ= Ordner wo paired-end reads liegen (zippend) </br>
-		SAMPLE_LIST= .txt -> welche samples genutzt werden (filename /t Endbezeichnung) </br>
+- In der Datei splice-variant-analysis.sh Pfade/Gen-Angaben ändern, dann ausführen -> ./splice-variant-analysis.sh 
+	- GENOME= .fa  </br>
+	ANNO_GTF= .gtf </br>
+	STARINDEX_OUTPUT = directory wo STARIndex hinsoll
+	RAW_SEQ= Ordner wo paired-end reads liegen (zippend) </br>
+	SAMPLE_LIST= .txt -> welche samples genutzt werden (filename /t Endbezeichnung) </br>
+	
+	gene="Lat-1" # define gene name
+	start="8896841" # define start
+	stop="8908666"   # define stop
+	chr="II" #define chromosome
+	strand="+" #define strand 
+		
 		Example: 	
 	``` G1-N2	d1_adult_gonad_wildtype_1
 	G2-N2	d1_adult_gonad_wildtype_2
