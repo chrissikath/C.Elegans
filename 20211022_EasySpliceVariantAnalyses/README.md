@@ -1,6 +1,6 @@
 # README.md (mapping, stringtie, lat-1, splice-variant-analysis)
 
-Um die Analyse zu starten, lade den Ordner "20211022_EasySpliceVariantAnalyses"
+Um die Analyse zu starten, lade den Ordner "20211022_EasySpliceVariantAnalyses" herunter, wo du die Analyse ausführen möchtest. 
 
 ## Part 1: splice_variants_analysis.sh
 	
