@@ -9,8 +9,9 @@ Um die Analyse zu starten, lade den Ordner "20211022_EasySpliceVariantAnalyses"
 1.3 Sort bed files  </br>
 2.0 Stingtie </br>
 3.0 Extract Gene from gtf results </br>
-	
-- Versionen:
+
+Schritte:
+- Programme installieren:
 	- STAR version 2.7.4a
 	- Stringtie version 1.3.3b
 - In der Datei splice-variant-analysis.sh Pfade ändern, dann ausführen -> ./splice-variant-analysis.sh 
@@ -32,13 +33,13 @@ Um die Analyse zu starten, lade den Ordner "20211022_EasySpliceVariantAnalyses"
 1.0 Shell part (Vorbereitung fürs R script)  </br>
 2.0 R Part (Visualisierung) </br>
 	
-- Versionen: 
+- Programme installieren:
 	- R version: 3.4.2
 	- BiocManager::install(version = "3.10") </br>
 		R-Packages installieren die in packages_functions_Alex.R benutzt werden </br>
 		(DESeq2, edgeR, RColorBrewer,gplots , psych,VennDiagram,grDevices,
 		calibrate, ggplot2, pheatmap, reshape, seqinr, Biostrings, plyr, taRifx)
-	- In der Datei Pfade .visualization_splice_variants.sh ändern, dann ausführen -> ./visualization_splice_variants.sh
+- In der Datei Pfade .visualization_splice_variants.sh ändern, dann ausführen -> ./visualization_splice_variants.sh
 	- 1.0 files  </br>
 		GENOME= .fa </br>
 		R_scripts= packages_functions_Alex.R </br>
