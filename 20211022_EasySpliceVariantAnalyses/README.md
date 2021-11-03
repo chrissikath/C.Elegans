@@ -14,7 +14,7 @@ Schritte:
 - Programme installieren:
 	- STAR version 2.7.4a
 	- Stringtie version 1.3.3b
-- In der Datei splice-variant-analysis.sh Pfade/Gen-Angaben ändern, dann ausführen -> ./splice-variant-analysis.sh 
+- In der Datei splice-variant-analysis.sh Pfade/Gen-Angaben ändern, dann ausführen -> ./splice-variant-analysis.sh </br>
 	GENOME= .fa  </br>
 	ANNO_GTF= .gtf </br>
 	STARINDEX_OUTPUT = directory wo STARIndex hinsoll </br>
