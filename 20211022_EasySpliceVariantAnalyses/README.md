@@ -48,7 +48,7 @@ Schritte:
 		R-Packages installieren die in packages_functions_Alex.R benutzt werden </br>
 		(DESeq2, edgeR, RColorBrewer,gplots , psych,VennDiagram,grDevices,
 		calibrate, ggplot2, pheatmap, reshape, seqinr, Biostrings, plyr, taRifx)
-- In der Datei Pfade .visualization_splice_variants.sh ändern, dann ausführen -> ./visualization_splice_variants.sh
+- In der Datei Pfade .visualization_splice_variants.sh ändern, dann ausführen -> -> chmod +x visualization_splice_variants.sh -> ./visualization_splice_variants.sh
 	- 1.0 files  </br>
 		GENOME= .fa </br>
 		R_scripts= packages_functions_Alex.R </br>
