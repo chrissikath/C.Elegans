@@ -15,7 +15,7 @@ Schritte:
 	- STAR version 2.7.4a
 	- Stringtie version 1.3.3b
 - In der Datei splice-variant-analysis.sh Pfade/Gen-Angaben ändern, dann ausführen -> ./splice-variant-analysis.sh 
-	- GENOME= .fa  </br>
+	GENOME= .fa  </br>
 	ANNO_GTF= .gtf </br>
 	STARINDEX_OUTPUT = directory wo STARIndex hinsoll </br>
 	RAW_SEQ= Ordner wo paired-end reads liegen (zippend) </br>
