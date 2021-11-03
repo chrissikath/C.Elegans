@@ -28,7 +28,8 @@ Schritte:
 	chr="II" #define chromosome </br>
 	strand="+" #define strand </br>
 		
-	Example: 	
+	Example:
+	nur der Name ohne _1 & _2, da paired-end sequencing
 	``` G1-N2	d1_adult_gonad_wildtype_1
 	G2-N2	d1_adult_gonad_wildtype_2
 	G3-N2	d1_adult_gonad_wildtype_3
