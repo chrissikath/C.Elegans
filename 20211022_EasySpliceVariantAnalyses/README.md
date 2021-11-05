@@ -43,7 +43,7 @@ Schritte:
 2.0 R Part (Visualisierung) </br>
 	
 - Programme installieren:
-	- R version: 3.6 (conda create --name XYZ )
+	- R version: 3.6.1 (conda create --name XYZ )
 	```R
 	conda install -c conda-forge r-base==3.6.1
 	```
