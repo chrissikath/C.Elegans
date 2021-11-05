@@ -64,10 +64,9 @@ Schritte:
 - In der Datei Pfade .visualization_splice_variants.sh ändern, dann ausführen -> chmod +x visualization_splice_variants.sh -> ./visualization_splice_variants.sh
 	- 1.0 files  </br>
 		GENOME= .fa </br>
-		R_scripts= packages_functions_Alex.R </br>
+		packages_functions_script= packages_functions_Alex.R </br>
 		exon_information_script= exon-information.r </br>
 	- 2.0 files  </br>
 		motifs_gene_file= motifs_gene  </br>
-		packages_functions_script= packages_functions_Alex.R </br>
 		set_working_dir= wo "results" hinsoll und alles liegt </br>
 		visualization_splice_variants_script= visualization_splice_variants.R </br>
