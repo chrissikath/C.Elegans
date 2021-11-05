@@ -43,8 +43,8 @@ Schritte:
 2.0 R Part (Visualisierung) </br>
 	
 - Programme installieren:
-	- R version: 3.6 (conda install -c r r=3.6) 
-	- BiocManager::install(version = "3.10") 
+	- R version: 3.6 (conda create --name XYZ r-base==3.6.1) 
+	- BiocManager
 	
 	```R
 	if (!requireNamespace("BiocManager", quietly = TRUE))
@@ -55,8 +55,7 @@ Schritte:
 		(DESeq2, edgeR, RColorBrewer, gplots , psych, VennDiagram, grDevices,
 		calibrate, ggplot2, pheatmap, reshape, seqinr, Biostrings, plyr, taRifx)
 	```R
-	packages.install("DESeq2") #hat noch nicht funktioniert
-	BiocManager::install(c("edgeR", "RColorBrewer","gplots" , "psych", "VennDiagram"))
+	BiocManager::install(c("DESeq2"."edgeR", "RColorBrewer","gplots" , "psych", "VennDiagram"))
 	BiocManager::install(c("grDevices", "calibrate", "ggplot2", "pheatmap", "reshape", "seqinr", "Biostrings", "plyr", "taRifx")) 
 	```
 		
