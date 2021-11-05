@@ -50,7 +50,6 @@ Schritte:
     		install.packages("BiocManager")
 		BiocManager::install()
 	``` 
-		</br>
 		install.packages("RColorBrewer")
 		R-Packages installieren die in packages_functions_Alex.R benutzt werden </br>
 		(DESeq2, edgeR, RColorBrewer, gplots , psych, VennDiagram, grDevices,
