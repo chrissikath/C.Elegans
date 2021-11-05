@@ -52,7 +52,8 @@ Schritte:
 		BiocManager::install()
 	``` 
 	</br>
-	install.packages("RColorBrewer") </br>
+	BiocManager::install(c("DESeq2", "edgeR", "RColorBrewer","gplots" , "psych", "VennDiagram")) </br>
+	BiocManager::install(c("grDevices", "calibrate", "ggplot2", "pheatmap", "reshape", "seqinr", "Biostrings", "plyr", "taRifx")) </br>
 	R-Packages installieren die in packages_functions_Alex.R benutzt werden </br>
 	(DESeq2, edgeR, RColorBrewer, gplots , psych, VennDiagram, grDevices,
 	calibrate, ggplot2, pheatmap, reshape, seqinr, Biostrings, plyr, taRifx)
