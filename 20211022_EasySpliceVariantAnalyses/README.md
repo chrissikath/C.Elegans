@@ -48,9 +48,12 @@ Schritte:
 		```if (!requireNamespace("BiocManager", quietly = TRUE))
 		    install.packages("BiocManager")
 		BiocManager::install(version = "3.10")``` 
+		</br>
+		install.packages("RColorBrewer")
 		R-Packages installieren die in packages_functions_Alex.R benutzt werden </br>
-		(DESeq2, edgeR, RColorBrewer,gplots , psych,VennDiagram,grDevices,
+		(DESeq2, edgeR, RColorBrewer, gplots , psych, VennDiagram, grDevices,
 		calibrate, ggplot2, pheatmap, reshape, seqinr, Biostrings, plyr, taRifx)
+		
 - In der Datei Pfade .visualization_splice_variants.sh ändern, dann ausführen -> chmod +x visualization_splice_variants.sh -> ./visualization_splice_variants.sh
 	- 1.0 files  </br>
 		GENOME= .fa </br>
