@@ -55,7 +55,8 @@ Schritte:
 		(DESeq2, edgeR, RColorBrewer, gplots , psych, VennDiagram, grDevices,
 		calibrate, ggplot2, pheatmap, reshape, seqinr, Biostrings, plyr, taRifx)
 	```R
-	BiocManager::install(c("DESeq2", "edgeR", "RColorBrewer","gplots" , "psych", "VennDiagram"))
+	packages.install("DESeq2")
+	BiocManager::install(c("edgeR", "RColorBrewer","gplots" , "psych", "VennDiagram"))
 	BiocManager::install(c("grDevices", "calibrate", "ggplot2", "pheatmap", "reshape", "seqinr", "Biostrings", "plyr", "taRifx")) 
 	```
 		
@@ -65,7 +66,7 @@ Schritte:
 		R_scripts= packages_functions_Alex.R </br>
 		exon_information_script= exon-information.r </br>
 	- 2.0 files  </br>
-		motifs_adgrl1_file= motifs_adgrl1  </br>
+		motifs_gene_file= motifs_gene  </br>
 		packages_functions_script= packages_functions_Alex.R </br>
 		set_working_dir= wo "results" hinsoll und alles liegt </br>
 		visualization_splice_variants_script= visualization_splice_variants.R </br>
