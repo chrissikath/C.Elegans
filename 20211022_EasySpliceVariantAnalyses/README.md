@@ -3,9 +3,6 @@
 Um die Analyse zu starten, lade den Ordner "20211022_EasySpliceVariantAnalyses" herunter, wo du die Analyse ausführen möchtest. 
 
 ## Part 1: splice_variants_analysis.sh
-
-> NOCH DRAN ALLE PACKAGES ZUM LAUFEN ZU BRINGEN 
-> !!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
 	
 1.1 STAR INDEX </br>
 1.2 Mapping  </br>
@@ -41,6 +38,9 @@ Schritte:
 	```
 			
 ## Part 2: visualization_splice_variants.sh
+
+> NOCH DRAN ALLE PACKAGES ZUM LAUFEN ZU BRINGEN 
+> !!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
 
 1.0 Shell part (Vorbereitung fürs R script)  </br>
 2.0 R Part (Visualisierung) </br>
