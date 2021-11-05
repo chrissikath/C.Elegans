@@ -43,11 +43,12 @@ Schritte:
 2.0 R Part (Visualisierung) </br>
 	
 - Programme installieren:
-	- R version: 3.4.2
+	- R version: 3.6 (conda install -c r r=3.6)
 	- BiocManager::install(version = "3.10") </br>
 		```if (!requireNamespace("BiocManager", quietly = TRUE))
 		    install.packages("BiocManager")
-		BiocManager::install(version = "3.10")``` 
+		BiocManager::install(version = "3.10")
+		``` 
 		</br>
 		install.packages("RColorBrewer")
 		R-Packages installieren die in packages_functions_Alex.R benutzt werden </br>
