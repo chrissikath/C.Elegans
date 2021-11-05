@@ -43,17 +43,19 @@ Schritte:
 2.0 R Part (Visualisierung) </br>
 	
 - Programme installieren:
-	- R version: 3.6 (conda install -c r r=3.6)
-	- BiocManager::install(version = "3.10") </br>
+	- R version: 3.6 (conda install -c r r=3.6) 
+	- BiocManager::install(version = "3.10") 
 	
-	```if (!requireNamespace("BiocManager", quietly = TRUE))
+	```R
+	if (!requireNamespace("BiocManager", quietly = TRUE))
     		install.packages("BiocManager")
 		BiocManager::install()
 	``` 
-		install.packages("RColorBrewer")
-		R-Packages installieren die in packages_functions_Alex.R benutzt werden </br>
-		(DESeq2, edgeR, RColorBrewer, gplots , psych, VennDiagram, grDevices,
-		calibrate, ggplot2, pheatmap, reshape, seqinr, Biostrings, plyr, taRifx)
+	</br>
+	install.packages("RColorBrewer") </br>
+	R-Packages installieren die in packages_functions_Alex.R benutzt werden </br>
+	(DESeq2, edgeR, RColorBrewer, gplots , psych, VennDiagram, grDevices,
+	calibrate, ggplot2, pheatmap, reshape, seqinr, Biostrings, plyr, taRifx)
 		
 - In der Datei Pfade .visualization_splice_variants.sh ändern, dann ausführen -> chmod +x visualization_splice_variants.sh -> ./visualization_splice_variants.sh
 	- 1.0 files  </br>
