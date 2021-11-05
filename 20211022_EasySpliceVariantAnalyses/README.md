@@ -51,12 +51,13 @@ Schritte:
     		install.packages("BiocManager")
 		BiocManager::install()
 	``` 
-	</br>
-	BiocManager::install(c("DESeq2", "edgeR", "RColorBrewer","gplots" , "psych", "VennDiagram")) </br>
-	BiocManager::install(c("grDevices", "calibrate", "ggplot2", "pheatmap", "reshape", "seqinr", "Biostrings", "plyr", "taRifx")) </br>
-	R-Packages installieren die in packages_functions_Alex.R benutzt werden </br>
-	(DESeq2, edgeR, RColorBrewer, gplots , psych, VennDiagram, grDevices,
-	calibrate, ggplot2, pheatmap, reshape, seqinr, Biostrings, plyr, taRifx)
+	- R-Packages installieren die in packages_functions_Alex.R benutzt werden </br>
+		(DESeq2, edgeR, RColorBrewer, gplots , psych, VennDiagram, grDevices,
+		calibrate, ggplot2, pheatmap, reshape, seqinr, Biostrings, plyr, taRifx)
+	```R
+	BiocManager::install(c("DESeq2", "edgeR", "RColorBrewer","gplots" , "psych", "VennDiagram"))
+	BiocManager::install(c("grDevices", "calibrate", "ggplot2", "pheatmap", "reshape", "seqinr", "Biostrings", "plyr", "taRifx")) 
+	```
 		
 - In der Datei Pfade .visualization_splice_variants.sh ändern, dann ausführen -> chmod +x visualization_splice_variants.sh -> ./visualization_splice_variants.sh
 	- 1.0 files  </br>
