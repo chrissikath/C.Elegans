@@ -46,8 +46,8 @@ Schritte:
 	- R version: 3.6 (conda install -c r r=3.6)
 	- BiocManager::install(version = "3.10") </br>
 		```if (!requireNamespace("BiocManager", quietly = TRUE))
-		    install.packages("BiocManager")
-		BiocManager::install()
+    install.packages("BiocManager")
+BiocManager::install()
 		``` 
 		</br>
 		install.packages("RColorBrewer")
