@@ -43,13 +43,15 @@ Schritte:
 2.0 R Part (Visualisierung) </br>
 	
 - Programme installieren:
-	- R version: 3.6 (conda create --name XYZ r-base==3.6.1) 
+	- R version: 3.6 (conda create --name XYZ )
+	```R
+	conda install -c conda-forge r-base==3.6.1
+	```
 	- BiocManager
 	
 	```R
 	if (!requireNamespace("BiocManager", quietly = TRUE))
     		install.packages("BiocManager")
-		BiocManager::install()
 	``` 
 	- R-Packages installieren die in packages_functions_Alex.R benutzt werden </br>
 		(DESeq2, edgeR, RColorBrewer, gplots , psych, VennDiagram, grDevices,
