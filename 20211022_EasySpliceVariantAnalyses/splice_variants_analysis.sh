@@ -6,11 +6,11 @@
 # STAR version 2.7.4a
 # Stringtie version 1.3.3b
 
-GENOME="/home/horn/2021_Celegans/20210902_alex_data/genome/wormbase/caenorhabditis_elegans.PRJNA13758.WBPS10.genomic.fa"
+GENOME="/home/horn/2021_Celegans/20210902_alex_data/genome/wormbase/caenorhabditis_elegans.PRJNA13758.WBPS10.genomic.fa" 
 ANNO_GTF="/home/horn/2021_Celegans/20210902_alex_data/genome/wormbase/caenorhabditis_elegans.PRJNA13758.WBPS10.canonical_geneset.gtf"
-STARINDEX_OUTPUT="/home/christina/C_elegans/analysis/20211022_EasySpliceVariantAnalyses/STARIndex"
-RAW_SEQ="/home/biochemistry/2003KNO-0044/01.RawData/"
-SAMPLE_LIST="sample_list_nur_ein_sample.txt"
+STARINDEX_OUTPUT="/home/christina/C_elegans/analysis/20211022_EasySpliceVariantAnalyses/STARIndex" #wo der StarIndex hinsoll
+RAW_SEQ="/home/biochemistry/2003KNO-0044/01.RawData/" #Ordner wo raw sequences liegen
+SAMPLE_LIST="sample_list.txt" #File welche Dateien benutzt werden sollen 
 
 gene="Lat-1" # define gene name
 start="8896841" # define start
@@ -70,7 +70,7 @@ done;
     
 ################################################################################
 
-############################ 1.3 Sort bed files ######################
+############################ 1.3 Sort bam files ######################
 echo '...............sort';
 cat ${SAMPLE_LIST} | cut -f2 | sed 's/\r$//' | while read sample; do 
 	echo $sample;
@@ -87,7 +87,7 @@ cat ${SAMPLE_LIST} | cut -f2 | sed 's/\r$//' | while read sample; do
 	mkdir ${PWD}/stringtie/$sample/;
 	stringtie -c 0.1 -f 0.0 -m 50 -a 1 -p 20 ${PWD}/star/$sample/Aligned.out.bam_sorted.bam \
 	  -o ${PWD}/stringtie/$sample/$sample.gtf;
-	# -c -> minimum read coverage 
+	# -c -> minimum read coverage
 	# -f -> disable trimming at the end of the transcripts 
 	# -m -> minimum length allowed for the predicted transcripts (normal=200)
 	# -a-> filtered out junctions that dont have spliced reads align with at least 1
