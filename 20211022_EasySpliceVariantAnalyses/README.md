@@ -55,7 +55,7 @@ Schritte:
 		(DESeq2, edgeR, RColorBrewer, gplots , psych, VennDiagram, grDevices,
 		calibrate, ggplot2, pheatmap, reshape, seqinr, Biostrings, plyr, taRifx)
 	```R
-	BiocManager::install(c("DESeq2"."edgeR", "RColorBrewer","gplots" , "psych", "VennDiagram"))
+	BiocManager::install(c("DESeq2", "edgeR", "RColorBrewer","gplots" , "psych", "VennDiagram"))
 	BiocManager::install(c("grDevices", "calibrate", "ggplot2", "pheatmap", "reshape", "seqinr", "Biostrings", "plyr", "taRifx")) 
 	```
 		
