@@ -45,6 +45,9 @@ Schritte:
 - Programme installieren:
 	- R version: 3.4.2
 	- BiocManager::install(version = "3.10") </br>
+		```if (!requireNamespace("BiocManager", quietly = TRUE))
+		    install.packages("BiocManager")
+		BiocManager::install(version = "3.10")``` 
 		R-Packages installieren die in packages_functions_Alex.R benutzt werden </br>
 		(DESeq2, edgeR, RColorBrewer,gplots , psych,VennDiagram,grDevices,
 		calibrate, ggplot2, pheatmap, reshape, seqinr, Biostrings, plyr, taRifx)
