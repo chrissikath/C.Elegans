@@ -57,10 +57,10 @@ Schritte:
     		install.packages("BiocManager")
 	``` 
 	- R-Packages installieren die in packages_functions_Alex.R benutzt werden </br>
-		(DESeq2, edgeR, RColorBrewer, gplots , psych, VennDiagram, grDevices,
+		(edgeR, RColorBrewer, gplots , psych, VennDiagram, grDevices,
 		calibrate, ggplot2, pheatmap, reshape, seqinr, Biostrings, plyr, taRifx)
 	```R
-	BiocManager::install(c("DESeq2", "edgeR", "RColorBrewer","gplots" , "psych", "VennDiagram"))
+	BiocManager::install(c("edgeR", "RColorBrewer","gplots" , "psych", "VennDiagram"))
 	BiocManager::install(c("grDevices", "calibrate", "ggplot2", "pheatmap", "reshape", "seqinr", "Biostrings", "plyr", "taRifx")) 
 	```
 		
@@ -73,3 +73,11 @@ Schritte:
 		motifs_gene_file= motifs_gene  </br>
 		set_working_dir= wo "results" hinsoll und alles liegt </br>
 		visualization_splice_variants_script= visualization_splice_variants.R </br>
+		
+		#Gene information </br>
+		gene="Lat-1" # define gene name </br>
+		gene_name="ADGRL1" </br>
+		start="8896841" # define start </br>
+		stop="8908666"   # define stop </br>
+		chr="II" #define chromosome </br>
+		strand="+" #define strand </br>
