@@ -55,6 +55,7 @@ Schritte:
 	``` 
 	- R-Packages installieren die in packages_functions_Alex.R benutzt werden </br>
 		(seqinr) # for open reading frame detection & genetic code
+		R (≥ 2.10.0)
 	```R
 	BiocManager::install("seqinr")
 	```
