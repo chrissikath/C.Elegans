@@ -43,6 +43,7 @@ Schritte:
 2.0 R Part (Visualisierung) </br>
 	
 - Programme installieren:
+	- Tested with R=3.6.1 and R=4.0.5
 	- R version: 3.6.1 (conda create --name XYZ )
 	```R
 	conda install -c conda-forge r-base==3.6.1
@@ -54,11 +55,10 @@ Schritte:
     		install.packages("BiocManager")
 	``` 
 	- R-Packages installieren die in packages_functions_Alex.R benutzt werden </br>
-		(edgeR, RColorBrewer, gplots , psych, VennDiagram, grDevices,
-		calibrate, ggplot2, pheatmap, reshape, seqinr, Biostrings, plyr, taRifx)
+		(seqinr) # for open reading frame detection & genetic code
+		R (≥ 2.10.0)
 	```R
-	BiocManager::install(c("edgeR", "RColorBrewer","gplots" , "psych", "VennDiagram"))
-	BiocManager::install(c("grDevices", "calibrate", "ggplot2", "pheatmap", "reshape", "seqinr", "Biostrings", "plyr", "taRifx")) 
+	BiocManager::install("seqinr")
 	```
 		
 - In der Datei Pfade .visualization_splice_variants.sh ändern, dann ausführen -> chmod +x visualization_splice_variants.sh -> ./visualization_splice_variants.sh
