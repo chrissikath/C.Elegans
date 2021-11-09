@@ -39,9 +39,6 @@ Schritte:
 			
 ## Part 2: visualization_splice_variants.sh
 
-> NOCH DRAN ALLE PACKAGES ZUM LAUFEN ZU BRINGEN 
-> !!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
-
 1.0 Shell part (Vorbereitung fürs R script)  </br>
 2.0 R Part (Visualisierung) </br>
 	
