@@ -16,29 +16,29 @@
 ###########################################################################################
 
 #source("https://bioconductor.org/biocLite.R") # for easy installing of BioConductor packages
+
 # BiocManager::install(c("DESeq2", "edgeR, RColorBrewer,gplots , psych, GMD,VennDiagram,grDevices,\
 # venneuler,   calibrate, ggplot2, pheatmap, reshape, heatmap.plus, Heatplus, seqinr, Biostrings, plyr, taRifx))
 #library(DESeq2) # statistical analysis for RNA-Seq
-library(edgeR)  # statistical analysis for RNA-Seq
-library(RColorBrewer) # for color palets
-library(gplots) # plotting
-library(psych) # stats
+#library(edgeR)  # statistical analysis for RNA-Seq
+#library(RColorBrewer) # for color palets
+#library(gplots) # plotting
+#library(psych) # stats
 # library(GMD) # stats
-library(VennDiagram)
-library(grDevices)		# needed to save the venn diagrams as pdf
+#library(VennDiagram)
+#library(grDevices)		# needed to save the venn diagrams as pdf
 # library(venneuler)
-library(calibrate) # plotting
-library(ggplot2) # plotting
-library(pheatmap) # = pretty heatmap - plotting
-library(reshape) # for some basic functions
+#library(calibrate) # plotting
+#library(ggplot2) # plotting
+#library(pheatmap) # = pretty heatmap - plotting
+#library(reshape) # for some basic functions
 # library(heatmap.plus) # plotting
 # library(Heatplus) # plotting
 library(seqinr) # for open reading frame detection & genetic code
-library(Biostrings) # for open reading frame detection & genetic code
-library(plyr) # for rounding functions
-library(taRifx) # for remove.factors() from a dataframe function
+#library(Biostrings) # for open reading frame detection & genetic code
+#library(plyr) # for rounding functions
+#library(taRifx) # for remove.factors() from a dataframe function
 # install.packages("")
-# biocLite("")
 
 ###########################################################################################
 ###                                2. Load functions!                                   ###
