@@ -54,11 +54,9 @@ Schritte:
     		install.packages("BiocManager")
 	``` 
 	- R-Packages installieren die in packages_functions_Alex.R benutzt werden </br>
-		(edgeR, RColorBrewer, gplots , psych, VennDiagram, grDevices,
-		calibrate, ggplot2, pheatmap, reshape, seqinr, Biostrings, plyr, taRifx)
+		(seqinr) # for open reading frame detection & genetic code
 	```R
-	BiocManager::install(c("edgeR", "RColorBrewer","gplots" , "psych", "VennDiagram"))
-	BiocManager::install(c("grDevices", "calibrate", "ggplot2", "pheatmap", "reshape", "seqinr", "Biostrings", "plyr", "taRifx")) 
+	BiocManager::install("seqinr")
 	```
 		
 - In der Datei Pfade .visualization_splice_variants.sh ändern, dann ausführen -> chmod +x visualization_splice_variants.sh -> ./visualization_splice_variants.sh
