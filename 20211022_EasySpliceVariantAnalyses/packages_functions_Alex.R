@@ -16,9 +16,9 @@
 ###########################################################################################
 
 #source("https://bioconductor.org/biocLite.R") # for easy installing of BioConductor packages
-# BiocManager::install(c(DESeq2, edgeR, RColorBrewer,gplots , psych, GMD,VennDiagram,grDevices,\
+# BiocManager::install(c("DESeq2", "edgeR, RColorBrewer,gplots , psych, GMD,VennDiagram,grDevices,\
 # venneuler,   calibrate, ggplot2, pheatmap, reshape, heatmap.plus, Heatplus, seqinr, Biostrings, plyr, taRifx))
-library(DESeq2) # statistical analysis for RNA-Seq
+#library(DESeq2) # statistical analysis for RNA-Seq
 library(edgeR)  # statistical analysis for RNA-Seq
 library(RColorBrewer) # for color palets
 library(gplots) # plotting

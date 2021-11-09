@@ -3,7 +3,7 @@
 #Author Christina Kuhn @github: https://github.com/chrissikath
 # pre-used scripts from Alex 
 # Shell Script, welches anhand von RNA-Seq Dateien Splice-Varianten findet Part 2
-# R version: 3.4.2
+# R version: 3.6
 # BiocManager::install(version = "3.10")
 # R-Packages installieren 
 
@@ -13,8 +13,7 @@ exon_information_script="/home/christina/C_elegans/analysis/20211022_EasySpliceV
 packages_functions_script="/home/christina/C_elegans/analysis/20211022_EasySpliceVariantAnalyses/packages_functions_Alex.R"
 
 #2.0 files
-motifs_adgrl1_file="motifs_adgrl1" 
-packages_functions_script="/home/christina/C_elegans/analysis/20211022_EasySpliceVariantAnalyses/packages_functions_Alex.R"
+motifs_gene_file="motifs_adgrl1"
 set_working_dir="/home/christina/C_elegans/analysis/20211022_EasySpliceVariantAnalyses/"
 visualization_splice_variants_script="/home/christina/C_elegans/analysis/20211022_EasySpliceVariantAnalyses/visualization_splice_variants.R" 
 
@@ -28,7 +27,7 @@ strand="+" #define strand
 
 ############################## 1.0 shell part ###################
 
-# exon-based comparison 
+# exon-based comparison
 cd  results
 R --vanilla < $exon_information_script $gene_name $packages_functions_script \
       `ls | awk -F '/' '{print $NF}' | awk -F '.' '{print $1}'`
@@ -64,4 +63,4 @@ bedtools getfasta -fi ${GENOME} \
 	# transcripts variants pdf 
 	# sequence_and_orf_analysis pdf 
 	# orfs.fa
-R  --vanilla < $visualization_splice_variants_script $gene_name $motifs_adgrl1_file $packages_functions_script $set_working_dir
+R  --vanilla < $visualization_splice_variants_script $gene_name $motifs_gene_file $packages_functions_script $set_working_dir
